@@ -1,0 +1,11 @@
+.parent{display: flex;justify-content: center; align-items: center; height: 100vh;background-image: url(https://picsum.photos/200/300);
+    background-repeat: no-repeat; background-position: center; background-size: cover;
+    }
+.child {height: 300px;width:300px;background-color: aqua;display: flex; flex-direction: column; align-items: center;
+            border-radius: 20px;margin-bottom: 20px; padding-left: 10px;
+    }
+    .child input{margin-top: 20px;}
+    .child input[type="text"]:hover{cursor: pointer;}
+    .child input[type="submit"]{margin-left: 70px; color: crimson;}
+    .child input[type="submit"]:hover{background-color: chocolate;}
+    .child form{border-bottom: 1px solid black; width: 300px;}
